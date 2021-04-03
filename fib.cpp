@@ -2,7 +2,9 @@
 using namespace std;
 
 int main(){
-	int n = 4;
+	cout << "input the num: " << endl;
+	int n=0; 
+	cin >> n;
 	int fib(int a);		//function declarition
 	cout <<  fib(n) << endl;
 

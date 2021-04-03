@@ -3,6 +3,10 @@ using namespace std;
 
 int main(){
 	cout << "input the num: " << endl;
+	if(n < 0){		//check the incorrect input
+		cout << "error!" << endl;
+		return 0;
+	}
 	int n=0; 
 	cin >> n;
 	int fib(int a);		//function declarition
